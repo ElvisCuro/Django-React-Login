@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import {Fragment} from 'react'
 import {connect} from 'react-redux'
 
@@ -8,6 +9,7 @@ function Alert ( {alert}) {
     const displayAlert = () => {
         if (alert !== null){
             return (
+                // eslint-disable-next-line react/prop-types
                 <div className={`rounded-md bg-${alert.alertType}-50 p-4`}>
                 <div className="flex">
                     <div className="flex-shrink-0">
