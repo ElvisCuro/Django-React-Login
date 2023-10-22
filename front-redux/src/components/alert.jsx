@@ -10,10 +10,10 @@ function Alert ( {alert}) {
         if (alert !== null){
             return (
                 // eslint-disable-next-line react/prop-types
-                <div className={`rounded-md bg-${alert.alertType}-50 p-4`}>
+                <div className={`bg-${alert.alertType}-50 rounded-md p-4`}>
                 <div className="flex">
                     <div className="flex-shrink-0">
-                    <BeakerIcon className={`h-5 w-5 text-${alert.alertType}-400`} aria-hidden="true" />
+                    <BeakerIcon className={`h-5 w-5 text-${alert.alertType}-300`} aria-hidden="true" />
                     </div>
                     <div className="ml-3">
                     <p className={`text-sm font-medium text-${alert.alertType}-800`}>{alert.msg}</p>
@@ -23,7 +23,8 @@ function Alert ( {alert}) {
             )
         } else {
             return(
-                <Fragment></Fragment>
+                <>
+                </>
             )
         }
     }

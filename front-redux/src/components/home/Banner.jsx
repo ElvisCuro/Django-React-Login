@@ -1,10 +1,4 @@
-import { Fragment, useState } from 'react'
-import { Link } from 'react-router-dom'
 import { connect } from 'react-redux'
-import { logout } from '../../redux/actions/auth'
-import { Navigate } from 'react-router-dom'
-
-
 
 function Banner({
     isAuthenticated,
@@ -174,5 +168,5 @@ const mapStateToProps = state => ({
 })
 
 export default connect (mapStateToProps,{
-  logout,
+  Banner,
 }) (Banner)
