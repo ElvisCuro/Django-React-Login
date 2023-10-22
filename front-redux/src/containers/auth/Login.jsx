@@ -3,7 +3,6 @@ import Layout from '../../hocs/Layout'
 import { useState,useEffect } from 'react'
 import {connect} from 'react-redux'
 import { login } from '../../redux/actions/auth'
-import { Link } from 'react-router-dom'
 
 function Login  ({
   login

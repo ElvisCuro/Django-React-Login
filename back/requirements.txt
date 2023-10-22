@@ -5,22 +5,16 @@ djangorestframework     # Para crear APIs REST en Django
 djoser                  # Para la autenticación y gestión de usuarios en Django REST Framework
 mysqlclient
 
-
 # Utilidades para el desarrollo de aplicaciones web
+pyJWT==2.1.0            # Trabajar con tokens JWT en autenticación y autorización
 django-cors-headers     # Configuración de CORS en aplicaciones Django
 django-environ          # Para la configuración de variables de entorno
 django-ckeditor         # Editor WYSIWYG enriquecido para Django
-Pillow                  # Procesamiento de imágenes en aplicaciones Django
 pytz                    # Trabajo con zonas horarias
 argon2-cffi             # Hashing seguro de contraseñas en Django
-pyJWT==2.1.0            # Trabajar con tokens JWT en autenticación y autorización
 
 # Autenticación social
 social-auth-app-django  # Integración con autenticación social (OAuth)
-
-# Procesamiento de pagos
-stripe                  # Integración de pagos con Stripe
-braintree               # Procesamiento de pagos con Braintree
 
 # Procesamiento de contenido
 markdown                # Procesamiento de texto en formato Markdown
